@@ -26,4 +26,4 @@ app.include_router(smokeTest.router, prefix="/smoke-test")
 # Define the API endpoints
 @app.get("/")
 def health():
-    return {"message": "OK 🚀"}
+    return {"message": "OK 🚀 2"}
